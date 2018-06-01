@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">vs00162_todoList</string>
+    <string name="action_add">Add to List</string>
+    <string name="action_clear">Clear List</string>
+    <string name="AppTitle">Just.Do.It!</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="add_record">Add Task</string>
+    <string name="delete_record">Delete Task</string>
+    <string name="listButtonText">Open My List</string>
+    <string name="aboutButtonText">About</string>
+    <string name="EditTextTask">Enter Task Name Here…</string>
+    <string name="EditTextDescription">Enter Task Description Here…</string>
+    <string name="buttonCompleted">Completed?</string>
+    <string name="taskDetails">View Task Details</string>
+    <string name="item_details">ItemDetails</string>
+    <string name="nameRow">Name:</string>
+    <string name="descriptionRow">Description:</string>
+    <string name="about_title">About This To-Do List Coursework</string>
+    <string name="about_text">
+    This application was made by <i><b><u>Vasily Shcherbinin</u></b></i> (vs00162).</string>
+    <string name="about_text2">
+    For a complete list of feature descriptions and explanations, please visit the README.txt file.</string>
+    <string name="textEditDialogTitle">Add Task to List</string>
+    <string name="positiveButtonAdd">Add</string>
+    <string name="dbTable">listTasks</string>
+    <string name="dialogDismissalHint">*If Task Name not entered, dialog will be dismissed!</string>
+    <string name="update_record">Update Record</string>
+    <string name="updateMessage1"><b><i>Warning!</i></b> You are about to create a new task from scratch.</string>
+    <string name="affirmative">Yes</string>
+    <string name="updateMessage2">Are you sure you want to proceed?</string>
+    <string name="updateMessage3">Your old task will remain until you delete it manually.</string>
+    <string name="EditTextDate">Add Task Date in Format DD/MM/YYYY…</string>
+    <string name="EditTextDateDue">Add Due Task Date in Format DD/MM/YYYY…</string>
+</resources>

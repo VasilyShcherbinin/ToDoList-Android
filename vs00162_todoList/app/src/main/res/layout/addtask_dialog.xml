@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/dialogEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditTextTask"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/dialogEditDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditTextDescription"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/dialogEditDateCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditTextDate"
+        android:inputType="text"
+        android:maxLength="10" />
+
+    <EditText
+        android:id="@+id/dialogEditDateDue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditTextDateDue"
+        android:inputType="text"
+        android:maxLength="10" />
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dialogDismissalHint" />
+
+</LinearLayout>
